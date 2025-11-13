@@ -75,10 +75,17 @@ chmod +x launch-unix.sh
 - **Lesson 1.4**: For Loops — Counting made easy with clean syntax
 - **Lesson 1.5**: Introduction to Methods — Reusable code blocks and functions
 
-### Coming Soon
-- Epoch 2: Thinking in Objects
-- Epoch 3: Building Your Toolkit
-- ...and more through Epoch 9!
+### Epoch 2-9: Full Curriculum Available
+- **Epoch 2**: Thinking in Objects (OOP fundamentals)
+- **Epoch 3**: Building Your Toolkit (Arrays, Collections)
+- **Epoch 4**: The Professional's Toolbox (Testing, Maven)
+- **Epoch 5**: The Database (SQL, JDBC)
+- **Epoch 6**: The Connected Web (HTTP, REST APIs)
+- **Epoch 7**: The Modern Framework (Spring Boot)
+- **Epoch 8**: The Frontend Connection (Full-Stack)
+- **Epoch 9**: The Capstone Journey (Portfolio Project)
+
+**Total: 10 Epochs, 18+ Lessons, Complete Java Learning Path!**
 
 ---
 

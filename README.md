@@ -36,13 +36,38 @@ Unlike traditional tutorials, this is a **standalone desktop application** that 
 - ✅ Lesson 1.4: For Loops - Counting Made Easy (4 Challenges: 1 Quiz + 3 Coding)
 - ✅ Lesson 1.5: Introduction to Methods (4 Challenges: 1 Quiz + 3 Coding)
 
-### **Epoch 2: Thinking in Objects** (Planned)
-*Why do professional developers organize code differently?*
-- Classes and objects
-- Encapsulation, inheritance, polymorphism
-- Object-oriented design
+### **Epoch 2: Thinking in Objects** (✅ Available - 2 Lessons)
+*Object-oriented programming fundamentals*
+- ✅ Lesson 2.1: Classes and Objects - The Blueprint
+- ✅ Lesson 2.2: Constructors - Better Object Creation
 
-### **Epoch 3-9**: Data Structures, Databases, Web Development, Spring Boot, and more!
+### **Epoch 3: Building Your Toolkit** (✅ Available - 1 Lesson)
+*Arrays and data structures*
+- ✅ Lesson 3.1: Arrays - Storing Multiple Values
+
+### **Epoch 4: The Professional's Toolbox** (✅ Available - 1 Lesson)
+*Testing and professional practices*
+- ✅ Lesson 4.1: Introduction to Testing
+
+### **Epoch 5: The Database** (✅ Available - 1 Lesson)
+*SQL and persistent storage*
+- ✅ Lesson 5.1: Why Do We Need Databases?
+
+### **Epoch 6: The Connected Web** (✅ Available - 1 Lesson)
+*HTTP and REST APIs*
+- ✅ Lesson 6.1: How Does the Web Actually Work?
+
+### **Epoch 7: The Modern Framework** (✅ Available - 1 Lesson)
+*Spring Boot framework*
+- ✅ Lesson 7.1: Introduction to Spring Boot
+
+### **Epoch 8: The Frontend Connection** (✅ Available - 1 Lesson)
+*Full-stack integration*
+- ✅ Lesson 8.1: Connecting Frontend to Your API
+
+### **Epoch 9: The Capstone Journey** (✅ Available - 1 Lesson)
+*Portfolio project*
+- ✅ Lesson 9.1: Your Capstone Project
 
 Full curriculum map available in: `COURSE_INDEX.md`
 
