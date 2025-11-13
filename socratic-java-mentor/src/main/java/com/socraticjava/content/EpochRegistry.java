@@ -43,8 +43,8 @@ public class EpochRegistry {
     private static void initializeEpochs() {
         epochs = new ArrayList<>();
         epochs.add(createEpoch0());
+        epochs.add(createEpoch1());
         // Future epochs will be added here as they're built
-        // epochs.add(createEpoch1());
         // epochs.add(createEpoch2());
         // ... etc
     }
@@ -70,16 +70,23 @@ public class EpochRegistry {
     }
 
     /**
-     * Placeholder for future epochs
+     * Creates Epoch 1: The Bare Essentials
      */
     private static Epoch createEpoch1() {
         Epoch epoch = new Epoch(
             "epoch-1",
             "Epoch 1: The Bare Essentials",
-            "How do I make the computer remember things and make decisions?",
-            15
+            "Data types, operators, loops, and methods",
+            8
         );
-        // Lessons will be added here
+
+        // Add lessons using fully qualified class names
+        epoch.addLesson(com.socraticjava.content.epoch1.Lesson01Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch1.Lesson02Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch1.Lesson03Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch1.Lesson04Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch1.Lesson05Content.create());
+
         return epoch;
     }
 }

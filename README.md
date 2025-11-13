@@ -28,11 +28,13 @@ Unlike traditional tutorials, this is a **standalone desktop application** that 
 - ✅ Lesson 0.3: Understanding Variables (3 Challenges: Quiz + 2 Coding)
 - ✅ Lesson 0.4: Making Decisions with If/Else (3 Challenges: Quiz + 2 Coding)
 
-### **Epoch 1: The Bare Essentials** (Coming Soon)
-*How do I make the computer remember things and make decisions?*
-- Variables, data types, operators
-- Control flow (if/else, loops)
-- Methods and functions
+### **Epoch 1: The Bare Essentials** (✅ Complete - 5 Lessons)
+*Data types, operators, loops, and methods*
+- ✅ Lesson 1.1: Data Types in Depth (4 Challenges: 2 Quizzes + 2 Coding)
+- ✅ Lesson 1.2: Operators and Expressions (4 Challenges: 2 Quizzes + 2 Coding)
+- ✅ Lesson 1.3: While Loops - Mastering Repetition (4 Challenges: 2 Quizzes + 2 Coding)
+- ✅ Lesson 1.4: For Loops - Counting Made Easy (4 Challenges: 1 Quiz + 3 Coding)
+- ✅ Lesson 1.5: Introduction to Methods (4 Challenges: 1 Quiz + 3 Coding)
 
 ### **Epoch 2: Thinking in Objects** (Planned)
 *Why do professional developers organize code differently?*

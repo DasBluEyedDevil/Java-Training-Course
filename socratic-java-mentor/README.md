@@ -68,8 +68,14 @@ chmod +x launch-unix.sh
 - **Lesson 0.3**: Understanding Variables — The "box" analogy with 3 challenges
 - **Lesson 0.4**: Making Decisions with If/Else — Conditional logic with 3 challenges
 
+### Epoch 1: The Bare Essentials (✅ Complete - 5 Lessons, 20 Challenges)
+- **Lesson 1.1**: Data Types in Depth — int, double, String, boolean explained
+- **Lesson 1.2**: Operators and Expressions — Arithmetic, precedence, shortcuts
+- **Lesson 1.3**: While Loops — Mastering repetition and avoiding infinite loops
+- **Lesson 1.4**: For Loops — Counting made easy with clean syntax
+- **Lesson 1.5**: Introduction to Methods — Reusable code blocks and functions
+
 ### Coming Soon
-- Epoch 1: The Bare Essentials
 - Epoch 2: Thinking in Objects
 - Epoch 3: Building Your Toolkit
 - ...and more through Epoch 9!
