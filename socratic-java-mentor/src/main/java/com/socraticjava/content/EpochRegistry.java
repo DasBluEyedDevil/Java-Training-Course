@@ -255,6 +255,7 @@ public class EpochRegistry {
         epoch.addLesson(com.socraticjava.content.epoch9.Lesson04Content.create());
         epoch.addLesson(com.socraticjava.content.epoch9.Lesson05Content.create());
         epoch.addLesson(com.socraticjava.content.epoch9.Lesson06Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch9.Lesson07Content.create());
 
         return epoch;
     }
