@@ -21,10 +21,12 @@ Unlike traditional tutorials, this is a **standalone desktop application** that 
 
 ## 📚 Course Curriculum
 
-### **Epoch 0: The Foundation** (Available Now)
+### **Epoch 0: The Foundation** (✅ Complete - 4 Lessons)
 *What is a program? What is Java? Why does any of this matter?*
-- Lesson 0.1: What is a Computer Program?
-- Lesson 0.2: Your First Java Program
+- ✅ Lesson 0.1: What is a Computer Program? (Conceptual + Quiz)
+- ✅ Lesson 0.2: Your First Java Program (2 Coding Challenges)
+- ✅ Lesson 0.3: Understanding Variables (3 Challenges: Quiz + 2 Coding)
+- ✅ Lesson 0.4: Making Decisions with If/Else (3 Challenges: Quiz + 2 Coding)
 
 ### **Epoch 1: The Bare Essentials** (Coming Soon)
 *How do I make the computer remember things and make decisions?*
