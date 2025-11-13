@@ -44,9 +44,14 @@ public class EpochRegistry {
         epochs = new ArrayList<>();
         epochs.add(createEpoch0());
         epochs.add(createEpoch1());
-        // Future epochs will be added here as they're built
-        // epochs.add(createEpoch2());
-        // ... etc
+        epochs.add(createEpoch2());
+        epochs.add(createEpoch3());
+        epochs.add(createEpoch4());
+        epochs.add(createEpoch5());
+        epochs.add(createEpoch6());
+        epochs.add(createEpoch7());
+        epochs.add(createEpoch8());
+        epochs.add(createEpoch9());
     }
 
     /**
@@ -86,6 +91,157 @@ public class EpochRegistry {
         epoch.addLesson(com.socraticjava.content.epoch1.Lesson03Content.create());
         epoch.addLesson(com.socraticjava.content.epoch1.Lesson04Content.create());
         epoch.addLesson(com.socraticjava.content.epoch1.Lesson05Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch1.Lesson06Content.create());
+
+        return epoch;
+    }
+
+    /**
+     * Creates Epoch 2: Thinking in Objects
+     */
+    private static Epoch createEpoch2() {
+        Epoch epoch = new Epoch(
+            "epoch-2",
+            "Epoch 2: Thinking in Objects",
+            "Classes, objects, and object-oriented programming",
+            10
+        );
+
+        epoch.addLesson(com.socraticjava.content.epoch2.Lesson01Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch2.Lesson02Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch2.Lesson03Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch2.Lesson04Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch2.Lesson05Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch2.Lesson06Content.create());
+
+        return epoch;
+    }
+
+    /**
+     * Creates Epoch 3: Building Your Toolkit
+     */
+    private static Epoch createEpoch3() {
+        Epoch epoch = new Epoch(
+            "epoch-3",
+            "Epoch 3: Building Your Toolkit",
+            "Arrays, collections, and data structures",
+            8
+        );
+
+        epoch.addLesson(com.socraticjava.content.epoch3.Lesson01Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch3.Lesson02Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch3.Lesson03Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch3.Lesson04Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch3.Lesson05Content.create());
+
+        return epoch;
+    }
+
+    /**
+     * Creates Epoch 4: The Professional's Toolbox
+     */
+    private static Epoch createEpoch4() {
+        Epoch epoch = new Epoch(
+            "epoch-4",
+            "Epoch 4: The Professional's Toolbox",
+            "Testing, build tools, and professional practices",
+            6
+        );
+
+        epoch.addLesson(com.socraticjava.content.epoch4.Lesson01Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch4.Lesson02Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch4.Lesson03Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch4.Lesson04Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch4.Lesson05Content.create());
+
+        return epoch;
+    }
+
+    /**
+     * Creates Epoch 5: The Database
+     */
+    private static Epoch createEpoch5() {
+        Epoch epoch = new Epoch(
+            "epoch-5",
+            "Epoch 5: The Database",
+            "SQL, databases, and persistence",
+            10
+        );
+
+        epoch.addLesson(com.socraticjava.content.epoch5.Lesson01Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch5.Lesson02Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch5.Lesson03Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch5.Lesson04Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch5.Lesson05Content.create());
+
+        return epoch;
+    }
+
+    /**
+     * Creates Epoch 6: The Connected Web
+     */
+    private static Epoch createEpoch6() {
+        Epoch epoch = new Epoch(
+            "epoch-6",
+            "Epoch 6: The Connected Web",
+            "HTTP, REST APIs, and web services",
+            8
+        );
+
+        epoch.addLesson(com.socraticjava.content.epoch6.Lesson01Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch6.Lesson02Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch6.Lesson03Content.create());
+
+        return epoch;
+    }
+
+    /**
+     * Creates Epoch 7: The Modern Framework
+     */
+    private static Epoch createEpoch7() {
+        Epoch epoch = new Epoch(
+            "epoch-7",
+            "Epoch 7: The Modern Framework",
+            "Spring Boot and enterprise Java",
+            15
+        );
+
+        epoch.addLesson(com.socraticjava.content.epoch7.Lesson01Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch7.Lesson02Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch7.Lesson03Content.create());
+
+        return epoch;
+    }
+
+    /**
+     * Creates Epoch 8: The Frontend Connection
+     */
+    private static Epoch createEpoch8() {
+        Epoch epoch = new Epoch(
+            "epoch-8",
+            "Epoch 8: The Frontend Connection",
+            "Full-stack integration and deployment",
+            6
+        );
+
+        epoch.addLesson(com.socraticjava.content.epoch8.Lesson01Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch8.Lesson02Content.create());
+
+        return epoch;
+    }
+
+    /**
+     * Creates Epoch 9: The Capstone Journey
+     */
+    private static Epoch createEpoch9() {
+        Epoch epoch = new Epoch(
+            "epoch-9",
+            "Epoch 9: The Capstone Journey",
+            "Build your portfolio project",
+            20
+        );
+
+        epoch.addLesson(com.socraticjava.content.epoch9.Lesson01Content.create());
 
         return epoch;
     }
