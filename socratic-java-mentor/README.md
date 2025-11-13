@@ -62,9 +62,11 @@ chmod +x launch-unix.sh
 
 ## 📚 Course Structure
 
-### Epoch 0: The Foundation (Currently Available)
-- **Lesson 0.1**: What is a Computer Program?
-- **Lesson 0.2**: Your First Java Program
+### Epoch 0: The Foundation (✅ Complete - 4 Lessons, 11 Challenges)
+- **Lesson 0.1**: What is a Computer Program? — Conceptual introduction with quiz
+- **Lesson 0.2**: Your First Java Program — Hello World with 2 coding challenges
+- **Lesson 0.3**: Understanding Variables — The "box" analogy with 3 challenges
+- **Lesson 0.4**: Making Decisions with If/Else — Conditional logic with 3 challenges
 
 ### Coming Soon
 - Epoch 1: The Bare Essentials

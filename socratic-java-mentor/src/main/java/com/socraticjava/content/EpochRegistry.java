@@ -2,6 +2,8 @@ package com.socraticjava.content;
 
 import com.socraticjava.content.epoch0.Lesson01Content;
 import com.socraticjava.content.epoch0.Lesson02Content;
+import com.socraticjava.content.epoch0.Lesson03Content;
+import com.socraticjava.content.epoch0.Lesson04Content;
 import com.socraticjava.model.Epoch;
 
 import java.util.ArrayList;
@@ -61,6 +63,8 @@ public class EpochRegistry {
         // Add lessons
         epoch.addLesson(Lesson01Content.create());
         epoch.addLesson(Lesson02Content.create());
+        epoch.addLesson(Lesson03Content.create());
+        epoch.addLesson(Lesson04Content.create());
 
         return epoch;
     }
