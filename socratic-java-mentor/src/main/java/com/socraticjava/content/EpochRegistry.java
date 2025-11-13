@@ -91,6 +91,7 @@ public class EpochRegistry {
         epoch.addLesson(com.socraticjava.content.epoch1.Lesson03Content.create());
         epoch.addLesson(com.socraticjava.content.epoch1.Lesson04Content.create());
         epoch.addLesson(com.socraticjava.content.epoch1.Lesson05Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch1.Lesson06Content.create());
 
         return epoch;
     }
@@ -108,6 +109,10 @@ public class EpochRegistry {
 
         epoch.addLesson(com.socraticjava.content.epoch2.Lesson01Content.create());
         epoch.addLesson(com.socraticjava.content.epoch2.Lesson02Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch2.Lesson03Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch2.Lesson04Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch2.Lesson05Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch2.Lesson06Content.create());
 
         return epoch;
     }
@@ -124,6 +129,10 @@ public class EpochRegistry {
         );
 
         epoch.addLesson(com.socraticjava.content.epoch3.Lesson01Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch3.Lesson02Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch3.Lesson03Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch3.Lesson04Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch3.Lesson05Content.create());
 
         return epoch;
     }
@@ -140,6 +149,10 @@ public class EpochRegistry {
         );
 
         epoch.addLesson(com.socraticjava.content.epoch4.Lesson01Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch4.Lesson02Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch4.Lesson03Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch4.Lesson04Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch4.Lesson05Content.create());
 
         return epoch;
     }
@@ -156,6 +169,10 @@ public class EpochRegistry {
         );
 
         epoch.addLesson(com.socraticjava.content.epoch5.Lesson01Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch5.Lesson02Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch5.Lesson03Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch5.Lesson04Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch5.Lesson05Content.create());
 
         return epoch;
     }
@@ -172,6 +189,8 @@ public class EpochRegistry {
         );
 
         epoch.addLesson(com.socraticjava.content.epoch6.Lesson01Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch6.Lesson02Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch6.Lesson03Content.create());
 
         return epoch;
     }
@@ -188,6 +207,8 @@ public class EpochRegistry {
         );
 
         epoch.addLesson(com.socraticjava.content.epoch7.Lesson01Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch7.Lesson02Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch7.Lesson03Content.create());
 
         return epoch;
     }
@@ -204,6 +225,7 @@ public class EpochRegistry {
         );
 
         epoch.addLesson(com.socraticjava.content.epoch8.Lesson01Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch8.Lesson02Content.create());
 
         return epoch;
     }
