@@ -1,4 +1,4 @@
-package com.socraticjava.content.epoch9;
+package com.socraticjava.content.epoch10;
 
 import com.socraticjava.model.Lesson;
 import com.socraticjava.model.QuizQuestion;
@@ -6,12 +6,12 @@ import com.socraticjava.model.QuizQuestion;
 import java.util.Arrays;
 
 /**
- * Epoch 9, Lesson 13: Database Migrations with Flyway
+ * Epoch 10, Lesson 2: Database Migrations with Flyway
  *
  * This lesson teaches professional database schema management using
  * Flyway migrations with Spring Boot 3.
  */
-public class Lesson13Content {
+public class Lesson02Content {
 
     public static Lesson create() {
         Lesson lesson = new Lesson(

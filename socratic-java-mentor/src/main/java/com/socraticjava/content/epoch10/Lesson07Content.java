@@ -1,4 +1,4 @@
-package com.socraticjava.content.epoch9;
+package com.socraticjava.content.epoch10;
 
 import com.socraticjava.model.Lesson;
 import com.socraticjava.model.QuizQuestion;
@@ -6,13 +6,13 @@ import com.socraticjava.model.QuizQuestion;
 import java.util.Arrays;
 
 /**
- * Lesson 18: Monitoring and Observability with Spring Boot Actuator
+ * Lesson 7: Monitoring and Observability with Spring Boot Actuator
  *
  * This lesson covers the three pillars of observability (logs, metrics, traces)
  * and how to implement production-grade monitoring using Spring Boot Actuator,
  * Micrometer, Prometheus, and distributed tracing.
  */
-public class Lesson18Content {
+public class Lesson07Content {
 
     public static Lesson create() {
         Lesson lesson = new Lesson(

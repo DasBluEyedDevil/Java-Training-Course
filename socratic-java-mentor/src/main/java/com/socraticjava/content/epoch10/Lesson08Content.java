@@ -1,4 +1,4 @@
-package com.socraticjava.content.epoch9;
+package com.socraticjava.content.epoch10;
 
 import com.socraticjava.model.Lesson;
 import com.socraticjava.model.QuizQuestion;
@@ -6,13 +6,13 @@ import com.socraticjava.model.QuizQuestion;
 import java.util.Arrays;
 
 /**
- * Lesson 19: Performance Optimization and Profiling
+ * Lesson 8: Performance Optimization and Profiling
  *
  * This lesson covers JVM tuning, database query optimization, profiling tools,
  * and strategies for identifying and fixing performance bottlenecks in production
  * Spring Boot applications.
  */
-public class Lesson19Content {
+public class Lesson08Content {
 
     public static Lesson create() {
         Lesson lesson = new Lesson(

@@ -52,6 +52,7 @@ public class EpochRegistry {
         epochs.add(createEpoch7());
         epochs.add(createEpoch8());
         epochs.add(createEpoch9());
+        epochs.add(createEpoch10());
     }
 
     /**
@@ -239,14 +240,14 @@ public class EpochRegistry {
     }
 
     /**
-     * Creates Epoch 9: The Capstone Journey
+     * Creates Epoch 9: The Capstone Project
      */
     private static Epoch createEpoch9() {
         Epoch epoch = new Epoch(
             "epoch-9",
-            "Epoch 9: The Capstone Journey",
-            "Build your portfolio project",
-            20
+            "Epoch 9: The Capstone Project",
+            "Build your full-stack task management application",
+            11
         );
 
         epoch.addLesson(com.socraticjava.content.epoch9.Lesson01Content.create());
@@ -260,15 +261,30 @@ public class EpochRegistry {
         epoch.addLesson(com.socraticjava.content.epoch9.Lesson09Content.create());
         epoch.addLesson(com.socraticjava.content.epoch9.Lesson10Content.create());
         epoch.addLesson(com.socraticjava.content.epoch9.Lesson11Content.create());
-        epoch.addLesson(com.socraticjava.content.epoch9.Lesson12Content.create());
-        epoch.addLesson(com.socraticjava.content.epoch9.Lesson13Content.create());
-        epoch.addLesson(com.socraticjava.content.epoch9.Lesson14Content.create());
-        epoch.addLesson(com.socraticjava.content.epoch9.Lesson15Content.create());
-        epoch.addLesson(com.socraticjava.content.epoch9.Lesson16Content.create());
-        epoch.addLesson(com.socraticjava.content.epoch9.Lesson17Content.create());
-        epoch.addLesson(com.socraticjava.content.epoch9.Lesson18Content.create());
-        epoch.addLesson(com.socraticjava.content.epoch9.Lesson19Content.create());
-        epoch.addLesson(com.socraticjava.content.epoch9.Lesson20Content.create());
+
+        return epoch;
+    }
+
+    /**
+     * Creates Epoch 10: Production-Ready Engineering
+     */
+    private static Epoch createEpoch10() {
+        Epoch epoch = new Epoch(
+            "epoch-10",
+            "Epoch 10: Production-Ready Engineering",
+            "Master professional practices for production applications",
+            9
+        );
+
+        epoch.addLesson(com.socraticjava.content.epoch10.Lesson01Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch10.Lesson02Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch10.Lesson03Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch10.Lesson04Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch10.Lesson05Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch10.Lesson06Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch10.Lesson07Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch10.Lesson08Content.create());
+        epoch.addLesson(com.socraticjava.content.epoch10.Lesson09Content.create());
 
         return epoch;
     }

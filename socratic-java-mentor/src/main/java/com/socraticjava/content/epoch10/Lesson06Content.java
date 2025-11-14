@@ -1,4 +1,4 @@
-package com.socraticjava.content.epoch9;
+package com.socraticjava.content.epoch10;
 
 import com.socraticjava.model.Lesson;
 import com.socraticjava.model.QuizQuestion;
@@ -6,12 +6,12 @@ import com.socraticjava.model.QuizQuestion;
 import java.util.Arrays;
 
 /**
- * Epoch 9, Lesson 17: Security Best Practices for Production
+ * Epoch 9, Lesson 6: Security Best Practices for Production
  *
  * This lesson teaches essential security practices for building secure
  * Spring Boot applications ready for production.
  */
-public class Lesson17Content {
+public class Lesson06Content {
 
     public static Lesson create() {
         Lesson lesson = new Lesson(

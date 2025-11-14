@@ -1,4 +1,4 @@
-package com.socraticjava.content.epoch9;
+package com.socraticjava.content.epoch10;
 
 import com.socraticjava.model.Lesson;
 import com.socraticjava.model.QuizQuestion;
@@ -6,12 +6,12 @@ import com.socraticjava.model.QuizQuestion;
 import java.util.Arrays;
 
 /**
- * Epoch 9, Lesson 16: Asynchronous Processing and Background Jobs
+ * Epoch 10, Lesson 5: Asynchronous Processing and Background Jobs
  *
  * This lesson teaches async processing, background jobs, and scheduled tasks
  * for building responsive, scalable applications.
  */
-public class Lesson16Content {
+public class Lesson05Content {
 
     public static Lesson create() {
         Lesson lesson = new Lesson(
