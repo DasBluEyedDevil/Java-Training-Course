@@ -1084,10 +1084,94 @@ public class Lesson10Content {
             - Consider token blacklisting for logout
 
             **Frontend Integration:**
-            - Store tokens in localStorage or httpOnly cookies
             - Add Authorization header to all protected requests
             - Implement automatic token refresh before expiration
             - Handle 401 errors by refreshing or redirecting to login
+
+            **Token Storage: localStorage vs httpOnly Cookies**
+
+            CRITICAL SECURITY DECISION: Where to store JWT tokens?
+
+            **Option 1: localStorage (Common but Vulnerable to XSS)**
+            ```javascript
+            // Store token
+            localStorage.setItem('access_token', token);
+
+            // Send with requests
+            fetch('/api/tasks', {
+                headers: {
+                    'Authorization': `Bearer ${localStorage.getItem('access_token')}`
+                }
+            });
+            ```
+
+            ✅ Advantages:
+            - Easy to implement
+            - Works with CORS (cross-domain requests)
+            - JavaScript has full access to token
+
+            ❌ Disadvantages:
+            - VULNERABLE TO XSS ATTACKS!
+            - Any JavaScript code can read localStorage
+            - If attacker injects <script>, they can steal tokens
+            - Common attack: console.log(localStorage.getItem('access_token'))
+
+            **Option 2: httpOnly Cookies (More Secure)**
+            ```java
+            // Backend sets cookie
+            @PostMapping("/login")
+            public ResponseEntity<?> login(@RequestBody LoginRequest request,
+                                          HttpServletResponse response) {
+                String token = jwtService.generateToken(user);
+
+                // Create httpOnly cookie
+                Cookie cookie = new Cookie("access_token", token);
+                cookie.setHttpOnly(true);  // JavaScript CANNOT access this!
+                cookie.setSecure(true);    // Only sent over HTTPS
+                cookie.setPath("/");
+                cookie.setMaxAge(900);     // 15 minutes
+
+                response.addCookie(cookie);
+                return ResponseEntity.ok(new LoginResponse(user.getEmail()));
+            }
+            ```
+
+            ```javascript
+            // Frontend - browser automatically sends cookie
+            fetch('/api/tasks', {
+                credentials: 'include'  // Include cookies in request
+            });
+            ```
+
+            ✅ Advantages:
+            - PROTECTED FROM XSS! JavaScript cannot access httpOnly cookies
+            - Browser automatically handles cookie with each request
+            - More secure by default
+
+            ❌ Disadvantages:
+            - VULNERABLE TO CSRF ATTACKS
+            - Requires CSRF protection (CSRF tokens or SameSite attribute)
+            - Doesn't work well with cross-domain requests (CORS)
+
+            **RECOMMENDATION:**
+            If frontend is on same domain as backend (e.g., www.myapp.com):
+            → Use httpOnly cookies + SameSite=Strict + CSRF protection
+
+            If frontend is on different domain (e.g., app.myapp.com + api.myapp.com):
+            → Use localStorage + strict Content Security Policy (CSP) to prevent XSS
+
+            **Best Practice for Production:**
+            ```java
+            Cookie cookie = new Cookie("access_token", token);
+            cookie.setHttpOnly(true);   // Prevent XSS
+            cookie.setSecure(true);     // HTTPS only
+            cookie.setSameSite("Strict"); // Prevent CSRF
+            cookie.setPath("/");
+            ```
+
+            This lesson uses localStorage for simplicity in learning, but httpOnly
+            cookies are generally recommended for production when frontend and backend
+            share the same domain.
 
             JWT authentication is now the industry standard for REST APIs and SPAs,
             providing security, scalability, and flexibility for modern applications.

@@ -34,7 +34,12 @@ public class Lesson06Content {
                 "   - Login returns JWT token\n" +
                 "   - Client sends token with each request\n" +
                 "   - Stateless, good for APIs\n\n" +
-                "We'll build both!")
+                "LEARNING PATH:\n" +
+                "This lesson: HTTP Basic Auth (simple, for testing)\n" +
+                "Later lessons: JWT tokens (production-ready)\n\n" +
+                "NOTE: Basic Auth is NOT recommended for production.\n" +
+                "We use it here to understand Spring Security fundamentals.\n" +
+                "You'll learn JWT (the production standard) in upcoming lessons!")
             .addAnalogy("Authentication is Like Airport Security",
                 "WITHOUT AUTHENTICATION (Current state):\n" +
                 "Anyone walks onto any airplane\n" +
