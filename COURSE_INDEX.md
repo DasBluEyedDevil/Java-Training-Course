@@ -68,10 +68,33 @@
 
 - [ ] Lessons 8.1 - 8.5 (Frontend basics & integration)
 
-### [EPOCH 9: The Capstone Journey](./Epoch-9-Capstone/README.md)
+### [EPOCH 9: The Capstone Project](./Epoch-9-Capstone/README.md)
 *Can I build something real from scratch?*
 
-- [ ] Your Portfolio Project
+- [ ] Lesson 9.1: Project Architecture and Planning
+- [ ] Lesson 9.2: Setting Up Spring Boot Project
+- [ ] Lesson 9.3: Database Schema Design with JPA
+- [ ] Lesson 9.4: Building RESTful APIs
+- [ ] Lesson 9.5: Request Validation and Error Handling
+- [ ] Lesson 9.6: Authentication with Spring Security
+- [ ] Lesson 9.7: Authorization and Role-Based Access Control
+- [ ] Lesson 9.8: File Upload and Storage
+- [ ] Lesson 9.9: Email Integration with Spring Mail
+- [ ] Lesson 9.10: WebSockets for Real-Time Features
+- [ ] Lesson 9.11: Spring Boot Testing Strategies
+
+### [EPOCH 10: Production-Ready Engineering](./Epoch-10-Production/README.md)
+*How do I make my project professional and scalable?*
+
+- [ ] Lesson 10.1: API Documentation with Swagger/OpenAPI
+- [ ] Lesson 10.2: Database Migrations with Flyway
+- [ ] Lesson 10.3: Pagination, Sorting, and Filtering APIs
+- [ ] Lesson 10.4: Caching Strategies with Spring Cache and Redis
+- [ ] Lesson 10.5: Asynchronous Processing and Background Jobs
+- [ ] Lesson 10.6: Security Best Practices for Production
+- [ ] Lesson 10.7: Monitoring and Observability with Spring Boot Actuator
+- [ ] Lesson 10.8: Performance Optimization and Profiling
+- [ ] Lesson 10.9: Deployment and CI/CD - The Final Journey
 
 ---
 
