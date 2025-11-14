@@ -22,7 +22,7 @@ Socratic Java Mentor is a standalone desktop application that provides:
 
 ### Prerequisites
 
-- **Java Development Kit (JDK) 17 or higher**
+- **Java Development Kit (JDK) 21 or higher**
   - Download from: https://adoptium.net/
   - Verify installation: `java -version`
 
@@ -75,17 +75,18 @@ chmod +x launch-unix.sh
 - **Lesson 1.4**: For Loops — Counting made easy with clean syntax
 - **Lesson 1.5**: Introduction to Methods — Reusable code blocks and functions
 
-### Epoch 2-9: Full Curriculum Available
+### Epoch 2-10: Full Curriculum Available
 - **Epoch 2**: Thinking in Objects (OOP fundamentals)
 - **Epoch 3**: Building Your Toolkit (Arrays, Collections)
 - **Epoch 4**: The Professional's Toolbox (Testing, Maven)
 - **Epoch 5**: The Database (SQL, JDBC)
 - **Epoch 6**: The Connected Web (HTTP, REST APIs)
 - **Epoch 7**: The Modern Framework (Spring Boot)
-- **Epoch 8**: The Frontend Connection (Full-Stack)
-- **Epoch 9**: The Capstone Journey (Portfolio Project)
+- **Epoch 8**: The Frontend Connection (Full-Stack with React)
+- **Epoch 9**: The Capstone Project (Build complete task management app - 11 lessons)
+- **Epoch 10**: Production-Ready Engineering (Advanced topics: caching, monitoring, CI/CD - 9 lessons)
 
-**Total: 10 Epochs, 18+ Lessons, Complete Java Learning Path!**
+**Total: 11 Epochs (0-10), 30+ Lessons, Complete Beginner to Full-Stack Developer Path!**
 
 ---
 
@@ -100,7 +101,7 @@ chmod +x launch-unix.sh
 
 ## 🛠️ Technology Stack
 
-- **Java 17**: Core language
+- **Java 21 (LTS)**: Core language
 - **JavaFX 21**: User interface
 - **Maven**: Build tool
 - **Java Compiler API**: In-memory code compilation
@@ -163,7 +164,7 @@ To reset your progress, simply delete this file.
 This is a learning platform under active development. Contributions are welcome!
 
 Areas for contribution:
-- More lesson content (Epochs 1-9)
+- More lesson content (Epochs 1-10)
 - UI improvements
 - Additional challenge types
 - Bug fixes
@@ -182,7 +183,7 @@ This project is open-source and available for educational purposes.
 **Solution**: You need the JDK (not just the JRE). Download from https://adoptium.net/
 
 ### Application won't start
-**Solution**: Verify you have Java 17+ installed:
+**Solution**: Verify you have Java 21+ installed:
 ```bash
 java -version
 ```

@@ -61,13 +61,35 @@ Unlike traditional tutorials, this is a **standalone desktop application** that 
 *Spring Boot framework*
 - ✅ Lesson 7.1: Introduction to Spring Boot
 
-### **Epoch 8: The Frontend Connection** (✅ Available - 1 Lesson)
+### **Epoch 8: The Frontend Connection** (✅ Available - 6 Lessons)
 *Full-stack integration*
-- ✅ Lesson 8.1: Connecting Frontend to Your API
+- ✅ Lesson 8.1-8.6: Frontend basics & integration with React
 
-### **Epoch 9: The Capstone Journey** (✅ Available - 1 Lesson)
-*Portfolio project*
-- ✅ Lesson 9.1: Your Capstone Project
+### **Epoch 9: The Capstone Project** (✅ Complete - 11 Lessons)
+*Build your full-stack task management application*
+- ✅ Lesson 9.1: Project Architecture and Planning
+- ✅ Lesson 9.2: Setting Up Spring Boot Project
+- ✅ Lesson 9.3: Database Schema Design with JPA
+- ✅ Lesson 9.4: Building RESTful APIs
+- ✅ Lesson 9.5: Request Validation and Error Handling
+- ✅ Lesson 9.6: Authentication with Spring Security
+- ✅ Lesson 9.7: Authorization and Role-Based Access Control
+- ✅ Lesson 9.8: File Upload and Storage
+- ✅ Lesson 9.9: Email Integration with Spring Mail
+- ✅ Lesson 9.10: WebSockets for Real-Time Features
+- ✅ Lesson 9.11: Spring Boot Testing Strategies
+
+### **Epoch 10: Production-Ready Engineering** (✅ Complete - 9 Lessons)
+*Master professional practices for production applications*
+- ✅ Lesson 10.1: API Documentation with Swagger/OpenAPI
+- ✅ Lesson 10.2: Database Migrations with Flyway
+- ✅ Lesson 10.3: Pagination, Sorting, and Filtering APIs
+- ✅ Lesson 10.4: Caching Strategies with Spring Cache and Redis
+- ✅ Lesson 10.5: Asynchronous Processing and Background Jobs
+- ✅ Lesson 10.6: Security Best Practices for Production
+- ✅ Lesson 10.7: Monitoring and Observability with Spring Boot Actuator
+- ✅ Lesson 10.8: Performance Optimization and Profiling
+- ✅ Lesson 10.9: Deployment and CI/CD - The Final Journey
 
 Full curriculum map available in: `COURSE_INDEX.md`
 
@@ -77,7 +99,7 @@ Full curriculum map available in: `COURSE_INDEX.md`
 
 ### Prerequisites
 
-- **Java Development Kit (JDK) 17 or higher**
+- **Java Development Kit (JDK) 21 or higher**
   - Download: [Adoptium JDK](https://adoptium.net/)
   - Verify: `java -version`
 - **Maven** (for building from source)
@@ -158,7 +180,7 @@ The app:
 ## 🛠️ Technology Stack
 
 **Application:**
-- Java 17
+- Java 21 (LTS)
 - JavaFX 21 (UI framework)
 - RichTextFX (code editor)
 - Java Compiler API (in-memory compilation)
@@ -238,7 +260,7 @@ java -Dprism.order=sw -jar target/socratic-java-mentor-shaded.jar
 ## 🤝 Contributing
 
 Contributions welcome! Areas of interest:
-- Additional lesson content (Epochs 1-9)
+- Additional lesson content (Epochs 1-10)
 - UI/UX improvements
 - Additional challenge types
 - Bug fixes
