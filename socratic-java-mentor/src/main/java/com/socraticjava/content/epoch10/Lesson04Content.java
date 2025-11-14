@@ -1,4 +1,4 @@
-package com.socraticjava.content.epoch9;
+package com.socraticjava.content.epoch10;
 
 import com.socraticjava.model.Lesson;
 import com.socraticjava.model.QuizQuestion;
@@ -6,12 +6,12 @@ import com.socraticjava.model.QuizQuestion;
 import java.util.Arrays;
 
 /**
- * Epoch 9, Lesson 15: Caching Strategies with Spring Cache and Redis
+ * Epoch 10, Lesson 4: Caching Strategies with Spring Cache and Redis
  *
  * This lesson teaches professional caching strategies using Spring Cache
  * abstraction and Redis for high-performance applications.
  */
-public class Lesson15Content {
+public class Lesson04Content {
 
     public static Lesson create() {
         Lesson lesson = new Lesson(

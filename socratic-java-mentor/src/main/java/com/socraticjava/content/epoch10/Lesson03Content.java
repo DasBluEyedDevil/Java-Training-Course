@@ -1,4 +1,4 @@
-package com.socraticjava.content.epoch9;
+package com.socraticjava.content.epoch10;
 
 import com.socraticjava.model.Lesson;
 import com.socraticjava.model.QuizQuestion;
@@ -6,12 +6,12 @@ import com.socraticjava.model.QuizQuestion;
 import java.util.Arrays;
 
 /**
- * Epoch 9, Lesson 14: Pagination, Sorting, and Filtering APIs
+ * Epoch 10, Lesson 3: Pagination, Sorting, and Filtering APIs
  *
  * This lesson teaches professional approaches to handling large datasets
  * with pagination, sorting, and dynamic filtering in Spring Data JPA.
  */
-public class Lesson14Content {
+public class Lesson03Content {
 
     public static Lesson create() {
         Lesson lesson = new Lesson(

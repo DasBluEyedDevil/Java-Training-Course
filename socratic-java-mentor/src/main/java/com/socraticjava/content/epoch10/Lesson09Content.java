@@ -1,4 +1,4 @@
-package com.socraticjava.content.epoch9;
+package com.socraticjava.content.epoch10;
 
 import com.socraticjava.model.Lesson;
 import com.socraticjava.model.QuizQuestion;
@@ -6,13 +6,13 @@ import com.socraticjava.model.QuizQuestion;
 import java.util.Arrays;
 
 /**
- * Lesson 20: Deployment and CI/CD - The Final Journey
+ * Lesson 9: Deployment and CI/CD - The Final Journey
  *
  * This lesson covers containerization with Docker, Kubernetes deployment,
  * CI/CD pipelines with GitHub Actions and Jenkins, cloud deployment,
  * and completing your capstone project for your portfolio.
  */
-public class Lesson20Content {
+public class Lesson09Content {
 
     public static Lesson create() {
         Lesson lesson = new Lesson(

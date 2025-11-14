@@ -1,4 +1,4 @@
-package com.socraticjava.content.epoch9;
+package com.socraticjava.content.epoch10;
 
 import com.socraticjava.model.Lesson;
 import com.socraticjava.model.QuizQuestion;
@@ -6,12 +6,12 @@ import com.socraticjava.model.QuizQuestion;
 import java.util.Arrays;
 
 /**
- * Epoch 9, Lesson 12: API Documentation with Swagger/OpenAPI
+ * Epoch 10, Lesson 1: API Documentation with Swagger/OpenAPI
  *
  * This lesson teaches professional API documentation using OpenAPI 3
  * and Swagger UI with Spring Boot 3.
  */
-public class Lesson12Content {
+public class Lesson01Content {
 
     public static Lesson create() {
         Lesson lesson = new Lesson(
